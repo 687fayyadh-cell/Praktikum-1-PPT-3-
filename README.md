@@ -25,7 +25,7 @@ def parse_function(expr: str):
     def f(x):
         return eval(expr, {"__builtins__": {}}, {**allowed, "x": x})
     return f
-
+    
 def secant_method(f, x0: float, x1: float,
                   tol: float = 1e-6, max_iter: int = 100):
     table = []
