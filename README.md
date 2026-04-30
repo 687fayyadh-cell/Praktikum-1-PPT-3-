@@ -2,6 +2,7 @@
 
 <img width="1911" height="843" alt="image" src="https://github.com/user-attachments/assets/c7669ecb-a5e4-4268-ad97-cd28278afca6" />
 
+code
 ```python
 
 import math
