@@ -1,7 +1,6 @@
 # Praktikum-1-PPT-3-
 
 import math
-
 class C:
     RESET  = "\033[0m"
     BOLD   = "\033[1m"
@@ -9,10 +8,7 @@ class C:
     GRAY   = "\033[90m"
     WHITE  = "\033[97m"
     GREEN  = "\033[92m"
-
-
 def parse_function(expr: str):
-
     expr = expr.replace("^", "**")
     allowed = {
         "sin": math.sin, "cos": math.cos, "tan": math.tan,
@@ -23,7 +19,6 @@ def parse_function(expr: str):
     def f(x):
         return eval(expr, {"__builtins__": {}}, {**allowed, "x": x})
     return f
-    
 def secant_method(f, x0: float, x1: float,
                   tol: float = 1e-6, max_iter: int = 100):
     table = []
