@@ -1,10 +1,9 @@
 # Praktikum-1-PPT-3-
 
-'''
 
+'''python
 import math
 
-# ── Warna terminal (ANSI) ──────────────────────────────────
 class C:
     RESET  = "\033[0m"
     BOLD   = "\033[1m"
@@ -154,5 +153,4 @@ def main():
     print()
 if __name__ == "__main__":
     main()
-
-'''
+'''python
