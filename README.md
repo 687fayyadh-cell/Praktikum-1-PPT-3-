@@ -2,7 +2,7 @@
 
 <img width="1911" height="843" alt="image" src="https://github.com/user-attachments/assets/c7669ecb-a5e4-4268-ad97-cd28278afca6" />
 
-```code
+```python
 
 import math
 
@@ -155,7 +155,7 @@ def main():
     print()
 if __name__ == "__main__":
     main()
-```
+```python
 
 <img width="1915" height="837" alt="image" src="https://github.com/user-attachments/assets/f7b8cf65-cb5d-4caa-b85b-014191646a1d" />
     output
