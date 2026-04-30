@@ -1,7 +1,5 @@
 # Praktikum-1-PPT-3-
 
-
-'''python
 import math
 
 class C:
@@ -25,8 +23,7 @@ def parse_function(expr: str):
     def f(x):
         return eval(expr, {"__builtins__": {}}, {**allowed, "x": x})
     return f
-'''python
-'''python
+    
 def secant_method(f, x0: float, x1: float,
                   tol: float = 1e-6, max_iter: int = 100):
     table = []
@@ -63,8 +60,7 @@ def secant_method(f, x0: float, x1: float,
             break
 
     return x1, converged, table
-'''python
-'''python
+
 def print_table(table, converged):
     col = [6, 14, 14, 14, 14, 14, 14]
     headers = ["  n", "    x₀", "    x₁", "    f(x₀)", "    f(x₁)", "    x₂", "    Er (%)"]
@@ -100,8 +96,7 @@ def print_table(table, converged):
         print(line)
 
     print(sep)
-'''python
-'''python
+
 def get_input(prompt, cast, validator=None, default=None):
     while True:
         try:
@@ -114,8 +109,7 @@ def get_input(prompt, cast, validator=None, default=None):
             return value
         except (ValueError, TypeError):
             print(f"  {C.RED}Input tidak valid. Coba lagi.{C.RESET}")
-'''python
-'''python
+
 def main():
 
     fx_str = get_input(
@@ -157,4 +151,3 @@ def main():
     print()
 if __name__ == "__main__":
     main()
-'''python
